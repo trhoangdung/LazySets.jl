@@ -15,6 +15,11 @@ DocTestSetup = quote
 end
 ```
 
+```@docs
+foo(::Vector{N}, ::N) where {N<:Signed}
+foo(::Vector{N}, ::N) where {N<:AbstractFloat}
+```
+
 ## Minkowski Sum
 
 ### Binary Minkowski Sum

@@ -28,6 +28,7 @@ of the set `X`.
 support computations with different numeric types.
 """
 abstract type LazySet end
+include("test.jl")
 
 # ============================
 # Auxiliary types or functions
