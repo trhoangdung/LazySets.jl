@@ -33,7 +33,8 @@ makedocs(
 #         "Methods Collection" => "lib/methods_fix.md",
         ],
         "About" => "about.md"
-    ]
+    ],
+    strict = true
 )
 
 deploydocs(
