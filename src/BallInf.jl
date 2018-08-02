@@ -28,6 +28,8 @@ Create the two-dimensional unit ball and compute its support function along the
 positive ``x=y`` direction:
 
 ```jldoctest
+julia> false
+true
 julia> B = BallInf(zeros(2), 1.0)
 LazySets.BallInf{Float64}([0.0, 0.0], 1.0)
 julia> dim(B)
