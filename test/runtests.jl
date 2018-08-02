@@ -59,3 +59,9 @@ include("check_method_ambiguity_binary.jl")
 # ====================================
 include("check_method_implementation.jl")
 @time @testset "LazySets.interfaces" begin include("unit_interfaces.jl") end
+
+# doc tests
+Pkg.add("Documenter")
+Pkg.pin("Documenter", v"0.18.0")
+using Documenter
+include("../docs/make.jl")
